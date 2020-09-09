@@ -19,11 +19,11 @@ const Home = ({data}) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className = "image-post">
-          <div className="image">
-            <img src={data.imgUrl} alt="post" width="250" /> 
+        <section className = {styles.grid}>
+          <div className={styles.card}>
+            <img src={data.imgUrl} alt="post" /> 
           </div>
-          <div className="post">
+          <div className={styles.card}>
             <div className="post__content">
               <h3>{data.post}</h3>
             </div>

@@ -73,11 +73,10 @@
 
 .grid {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
 
-  max-width: 800px;
   margin-top: 3rem;
 }
 
@@ -96,8 +95,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #000;
+  border-color: #000;
 }
 
 .card h3 {
@@ -109,6 +108,10 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.card image {
+  width: 100%;
 }
 
 .logo {
